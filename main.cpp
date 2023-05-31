@@ -60,24 +60,3 @@ int main()
 
     rec_alg(&list, step, level+1);
 }
-
-
-/*
-void rec_alg(int *p, int step)
-{
-
-    p[step] = step + 1;
-    for (int i = 0; i < step + 1; i++)
-    {
-    }
-}
-
-int main()
-{
-    int p[N];
-    int step = 1; // номер перестановки
-    p[0] = 1;
-
-    rec_alg(p, step);
-}
-*/
